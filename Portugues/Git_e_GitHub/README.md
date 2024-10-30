@@ -1,5 +1,7 @@
 # GIT E GITHUB
 
+---
+
 ## Inicializando um repositório
 
 Para iniciar um repositório basta usar o comando `git init` dentro do diretório que deseja.
@@ -54,3 +56,5 @@ O comando `git add` é usado para notificar o git que ele vai monitorar esse arq
 >
 > - ### Adicionar todos os arquivos modificados
 >> `git add .`
+
+---
