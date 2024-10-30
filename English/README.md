@@ -5,11 +5,11 @@
 > This file will contain basic commands for using the terminal.
 
 > - ## Commands.
->> `cd`: The cd command is used to navigate between local directories on the machine. Ex: `cd Documents`
+>> `cd`: The `cd` command is used to navigate between local directories on the machine. Ex: `cd Documents`
 >>
->>`mkdir`: The mkdir command is used to create a new directory on the machine. Ex: `mkdir GitHub`
+>>`mkdir`: The `mkdir` command is used to create a new directory on the machine. Ex: `mkdir GitHub`
 >>
->>`dir`: Lists the directories from  current directory. Ex: `dir`
+>>`dir`: Lists the directories from current directory. Ex: `dir`
 >>
 >>`rmdir`: Removes the directory if is empty. Ex: `rmdir projects`
 >>
