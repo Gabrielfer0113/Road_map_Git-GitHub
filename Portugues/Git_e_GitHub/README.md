@@ -58,3 +58,12 @@ O comando `git add` é usado para notificar o git que ele vai monitorar esse arq
 >> `git add .`
 
 ---
+
+## Git commit
+
+O `git commit` é usado para notificar que o arquivo foi salvo, nele você da uma breve explicação sobre oque foi modificado.
+
+> `git commit -m "Commitando"`
+
+---
+
