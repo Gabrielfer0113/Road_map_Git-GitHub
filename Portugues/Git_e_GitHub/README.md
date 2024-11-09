@@ -154,7 +154,24 @@ Para remover um arquivo utilize o comando `git rm (nome do arquivo/diretório)`
 
 ## Git diff
 
-O `git diff` é usado para ver oque foi modificado no arquivo
+O `git diff` é usado para ver oque foi modificado no arquivo entre o ultimo commit e o mais atual, tambem podemos comparar a diferença com um commit antigo, ou seja, uma hash, ou comparar duas hash's diferentes
+
+> ### Comparação com o commit atual
+>>![](img/git_diff_staged.png)
+>
+> ### Comparação com o commit atual com o uma hash antiga
+>>![](img/git_diff_hash.png)
+>
+> ### Comparação de duas hash's diferentes
+>>![](img/git_diff_hash_to_hash.png)
+
+
+## Git --amend
+
+O `git --amend` nos disponibiliza a possibilidade de arrumar um commit caso o descrevamos errado a situação que foi trabalhada.
+
+
+
 
 ## Em produção...
 
