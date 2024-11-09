@@ -142,9 +142,10 @@ para fazer a alteração do nome do arquivo basta usar o comando `git mv (nome d
 ## Git remove
 
 
-Para remover 
+Para remover um arquivos utilize o comando `git rm (nome do arquivo)`
+
+
 
 ## Em produção...
 
-Para remover um repositório utilize o comando `git rm (nome do repositório)`
 
