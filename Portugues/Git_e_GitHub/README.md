@@ -128,6 +128,8 @@ Caso queiramos voltar um commit que fizemos, poderemos usar o `git checkout (có
 Para voltar para a main utilize `git checkout maste/main`
 
 
+---
+
 ## Alteração de arquivos
 
 para fazer a alteração do nome do arquivo basta usar o comando `git mv (nome do arquivo) (nome que deseja substituir)`
@@ -138,6 +140,8 @@ para fazer a alteração do nome do arquivo basta usar o comando `git mv (nome d
 > ### Depois:
 >>![Depois](img/alteracao_de_nome-pt2.png)
 
+
+---
 
 ## Git remove
 
@@ -151,6 +155,8 @@ Para remover um arquivo utilize o comando `git rm (nome do arquivo/diretório)`
 > ### Depois
 >>![Git rm](img/gitrm-pt2.png)
 
+
+---
 
 ## Git diff
 
@@ -166,6 +172,8 @@ O `git diff` é usado para ver oque foi modificado no arquivo entre o ultimo com
 >>![](img/git_diff_hash_to_hash.png)
 
 
+---
+
 ## Git --amend
 
 O `git --amend` nos disponibiliza a possibilidade de arrumar um commit caso o descrevamos errado a situação que foi trabalhada.
@@ -175,6 +183,9 @@ O `git --amend` nos disponibiliza a possibilidade de arrumar um commit caso o de
 >
 > ### Ajustando o commit 
 >![](img/git_commit_amend-02.png)
+
+---
+
 
 
 ## Em produção...
