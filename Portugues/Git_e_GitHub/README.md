@@ -186,6 +186,15 @@ O `git --amend` nos disponibiliza a possibilidade de arrumar um commit caso o de
 
 ---
 
+## Voltando ao ultimo commit
+
+Caso façamos um commit que não foi muito bom para o main, podemos retornar o os arquivo para o ultimo commit com o comando `git reset HEAD^ --hard`
+
+> ### Antes
+>> ![](img/git_reset-pt01.png)
+>
+> ### Depois
+>>![](img/git_reset-pt02.png)
 
 
 ## Em produção...
