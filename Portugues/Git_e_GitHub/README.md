@@ -111,13 +111,13 @@ Podemos filtrar a partir da data com os comandos a seguir:
 
 ![](img/gitlog_data.png)
 
-### git help log
+### Git help log
 
 caso queira mais alguma ajuda use o comando `git help log`
 
 ---
 
-## git checkout (hash)
+## Git checkout (hash)
 
 
 Caso queiramos voltar um commit que fizemos, poderemos usar o `git checkout (código da hash)`, isso vai fazer o seu arquivo voltar no tempo. Ele ira recuperar os dados daquela data do commit e descartando a nova.
@@ -132,5 +132,19 @@ Para voltar para a main utilize `git checkout maste/main`
 
 para fazer a alteração do nome do arquivo basta usar o comando `git mv (nome do arquivo) (nome que deseja substituir)`
 
+> ### Antes:
+>>![Antes](img/alteracao_de_nome-pt1.png)
+>
+> ### Depois:
+>>![Depois](img/alteracao_de_nome-pt2.png)
+
+
+## Git remove
+
+
+Para remover 
+
 ## Em produção...
+
+Para remover um repositório utilize o comando `git rm (nome do repositório)`
 
