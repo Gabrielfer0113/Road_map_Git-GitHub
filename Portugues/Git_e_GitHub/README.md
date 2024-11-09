@@ -84,7 +84,7 @@ Caso eu queira fazer uma busca mais aprofundada nos logs do repositório, posso 
 
 > ### Filtragem de logs
 
-Caso eu queira filtrar uma quantidade de logs.
+Caso eu queira filtrar uma quantidade especifíca de logs.
 
 `git log -2`
 
@@ -127,6 +127,10 @@ Caso queiramos voltar um commit que fizemos, poderemos usar o `git checkout (có
 
 Para voltar para a main utilize `git checkout maste/main`
 
+
+## Alteração de arquivos
+
+para fazer a alteração do nome do arquivo basta usar o comando `git mv (nome do arquivo) (nome que deseja substituir)`
 
 ## Em produção...
 
