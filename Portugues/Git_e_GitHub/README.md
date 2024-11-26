@@ -176,7 +176,7 @@ O `git diff` é usado para ver oque foi modificado no arquivo entre o ultimo com
 
 ## Git --amend
 
-O `git --amend` nos disponibiliza a possibilidade de arrumar um commit caso o descrevamos errado a situação que foi trabalhada.
+O `git --amend` nos permite corrigir a mensagem de um commit caso ela não descreva corretamente a situação trabalhada.
 
 > ### Commit com o descritivo errado 
 >![](img/git_commit_amend-01.png)
