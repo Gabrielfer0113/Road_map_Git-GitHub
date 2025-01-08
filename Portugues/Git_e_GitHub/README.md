@@ -219,6 +219,10 @@ Para criarmos uma nova branch basta usar o comando `git branch (nome_da_branch)`
 
 >![](img/git_branch_nome_da_branch.png)
 
+Ou podemos usar o comando `git checkout -b (nome_da_branch)` isso faria criar e mudar para a branch criada.
+
+![](img/checkout-b.png)
+
 ## Mudando de branch
 
 Usando o comando `git checkout (nome_da_branch)` podemos alterar de branch.
@@ -235,7 +239,15 @@ Para deletarmos uma branch basta usar o comando `git branch -D (nome_da_branch)`
 
 ## Trabalhando com merge
 
+Caso eu esteja trabalhando dentro de uma branch e eu vejo que eu posso mesclar ela com o a branch main eu poderia fazer o merge.
 
+>![](img/merge.png)
+ 
+ ---
+
+ 
+
+ ## Rebase
 
 ## Em produção...
 
