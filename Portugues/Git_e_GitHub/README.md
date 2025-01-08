@@ -249,6 +249,8 @@ Caso eu esteja trabalhando dentro de uma branch e eu vejo que eu posso mesclar e
 
  ## Rebase
 
+![](img/rebase.png)
+
 ## Em produção...
 
 
