@@ -102,12 +102,19 @@ Utilize o comand `git log --oneline`
 
 
 Podemos filtrar a partir da data com os comandos a seguir:
+
 >`git log --after='dd-mm-yyyy'`
+>
 >`git log --before='dd-mm-yyyy'`
+>
 >`git log --since='2 days ago'`
+>
 >`git log --after='3 mounths ago'`
+>
 >`git log --before='1 year ago'`
+>
 >`git log --author='autor'`
+
 
 ![](img/gitlog_data.png)
 
@@ -195,6 +202,39 @@ Caso façamos um commit que não foi muito bom para o main, podemos retornar o o
 >
 > ### Depois
 >>![](img/git_reset-pt02.png)
+
+
+---
+
+## Trabalhando com branches
+
+Uma branch é uma ramificação do projeto principal, pense que o projeto principal é uma arvore e as "branches" são os galhos. A branch principal é chamado de "Master" ou "Main". Podemos usar o comando `git branch` para mostrar as branches existentes
+
+
+>![](img/git_branch.png)
+
+## Criando novas branches
+
+Para criarmos uma nova branch basta usar o comando `git branch (nome_da_branch)`.
+
+>![](img/git_branch_nome_da_branch.png)
+
+## Mudando de branch
+
+Usando o comando `git checkout (nome_da_branch)` podemos alterar de branch.
+
+>![](img/Alterando_de_branch.png)
+
+## Deletando uma branch
+
+Para deletarmos uma branch basta usar o comando `git branch -D (nome_da_branch)`.
+
+>![](img/deletando_branch.png)
+
+---
+
+## Trabalhando com merge
+
 
 
 ## Em produção...
