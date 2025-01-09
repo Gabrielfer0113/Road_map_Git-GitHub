@@ -266,6 +266,32 @@ Use o comando `git clone (nome do repositório git)` aí o git cria um clone do 
 
 ## Trabalhando com Fetch e Pull
 
+O `Fetch` baixa os arquivo e o `Rebase/Merge` reorganiza os commits, enquanto o `Pull` faz os dois ao mesmo tempo e verifica se há atualizações no código
+
+>>![](img/comandos_pull.png)
+>
+>Comandos para auxiliar o pull
+> <br> ^ = Ctrl  
+
+---
+
+## Bare Repostory
+
+Use o comando `Git init --bare`, isso vai fazer você puxar os arquivos da pasta .git, assim auxiliando melhor na hora de gerenciar o projeto
+
+---
+
+## Trabalhando com Tags
+
+As `Tags` são usadas para disponibilizar uma versão estavel separada da main para que o usuario possa usar, essa versão pode ser uma versão incompleta.
+
+Para criar uma `Tag` devemos escrever `git tag v1.0`. após isso devemos fazer um `push` para a origin (repositório remoto): `git push origin v1.0`. Isso fara que fique disponivel para todos que estão trabalhando no código.
+
+Para mudar para o código dentro da versão use o comando `git checkou v1.0`, lembrando que não podemos alterar o código da v1.0 enquanto estivermos dentro da branch 1.0, só vamos poder visualizar. Caso essa versão necessite de uma atualização ou uma correção de bugs podemos criar uma branch dele usando o comando `git switch -c atulização_v1.0.1`, após de arrumar o bug ou criar a atulização basta fazer o `merge/rebase` e usar novamente o comando `git tag 1.0.1`.
+
+Após todo esse processo devemos mandar a nova tag para o repositório remoto usando o comando `git push origin 1.0.1`
+
+--- 
 
 
 ## Em produção...
