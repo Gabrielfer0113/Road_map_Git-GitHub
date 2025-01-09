@@ -251,7 +251,6 @@ Caso eu esteja trabalhando dentro de uma branch e eu vejo que eu posso mesclar e
 
 O `Rebase` diferente do merge ele mescla o código a partir de onde foi criado a branch, enquanto o merge mescla com a versão mais recente do código.
 
-       e
 
 ![](img/rebase.png)
 
