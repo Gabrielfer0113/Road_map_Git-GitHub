@@ -243,13 +243,30 @@ Caso eu esteja trabalhando dentro de uma branch e eu vejo que eu posso mesclar e
 
 >![](img/merge.png)
  
- ---
+---
 
  
 
  ## Rebase
 
+O `Rebase` diferente do merge ele mescla o código a partir de onde foi criado a branch, enquanto o merge mescla com a versão mais recente do código.
+
+       e
+
 ![](img/rebase.png)
+
+---
+
+## Trabalhando com Clone 
+
+Use o comando `git clone (nome do repositório git)` aí o git cria um clone do repositório.
+
+
+---
+
+## Trabalhando com Fetch e Pull
+
+
 
 ## Em produção...
 
