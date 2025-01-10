@@ -276,7 +276,7 @@ O `Fetch` baixa os arquivo e o `Rebase/Merge` reorganiza os commits, enquanto o 
 
 ## Bare Repostory
 
-Use o comando `Git init --bare`, isso vai fazer você puxar os arquivos da pasta .git, assim auxiliando melhor na hora de gerenciar o projeto
+Use o comando `Git init --bare`, isso vai fazer você puxar os arquivos da pasta .git, assim auxiliando melhor na hora de gerenciar o projeto. O Bare Repostory é o repositório principal onde ficara o projeto armazenado.
 
 ---
 
@@ -292,6 +292,46 @@ Após todo esse processo devemos mandar a nova tag para o repositório remoto us
 
 --- 
 
+## GITHUB
+
+No site do [GitHub](https://github.com/home) na hora de criação do site o nome do repositorio não pode haver acentuação ou espaçamento entre as palavra.
+ Sempre criar um arquivo README para explicar como o projeto que será realizado naquele repositório.
+
+>![](img/Criacao_de_repositorio.png)
+
+Uma coisa importante de se destacar é que, existem dois tipos de repositórios, privados e publicos, os privados são usados para impedir que outros usuarios não tenham acesso de vizualizar o projeto sendo feito,
+enquanto o publico é possivel deixar visivel para todos e uma boa opção de mostrar a sua competencia nos seus projetos. 
+
+>![](img/tutorial_de_criacao_de_arquivos_no_github.png)
+
+Após a criação do repositório o próprio [GitHub](https://github.com/home) nos mostra um tutorial para ajudar a usar o repositório.
+
+>![](img/linkagem_do_local_para_remoto.png)
+
+Seguindo os passo-a-passo descrito no site, podemos linkar o repositório local com o remoto.
+
+
+Com o comando `git remote -v` podemos ver o endereço das origins.
+
+>![](img/git_remote-v.png)
+
+Após as alterções necessario faça o commit e de o push dessa maneira `git push -u origin main`
+
+---
+
+## Usando Clone e Pull
+
+Para fazer o clone precisamos do https do repositorio que desejamos clone.
+
+>![](img/clone.png)
+
+Após conseguir o https do repositório use o comando `git clone https/github.com/`.
+
+>![](img/clone-02.png)
+
+O `git pull` é usado para atualizar o seu código caso o remoto esteja atulizado e o seu não. Caso aconteça isso use o comando `git pull origin main`.
+
+>![](img/git_pull.png)
 
 ## Em produção...
 
