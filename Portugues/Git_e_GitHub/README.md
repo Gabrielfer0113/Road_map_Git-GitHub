@@ -333,6 +333,8 @@ O `git pull` é usado para atualizar o seu código caso o remoto esteja atulizad
 
 >![](img/git_pull.png)
 
+---
+
 ## Adicionando colaboradores
 
 Vá até as configurações do repositorio e adicione o colaborador.
@@ -340,6 +342,8 @@ Vá até as configurações do repositorio e adicione o colaborador.
 ![](img/config_rep.png)
 
 Agora as pessoas que forem colaboradores podem dar o push na main do repositório.
+
+---
 
 ## Desfazendo checkouts
 
@@ -350,6 +354,8 @@ isso vai fazer que todos os arquivos alterados voltem a ser oque eram antes do c
 Caso queira fazer isso somente com um arquivo faça `git checkout -- nome do arquivo`.
 
 Em caso faça o `git add` mas queira removê-lo basta usar o comando `git checkout HEAD -- .`, se for um arquivo em especifico use `git checkout -- nome do arquivo`
+
+---
 
 ## Desfazendo com revert ou reset
 
@@ -367,6 +373,12 @@ A importancia do revert é manter o histórico.
 O reset remove o commit diferente do revert. Para usarmos digite `git reset HEAD~1` o numero na frente representa a quantidade de commits que deseja voltar.
 
 ![](img/reset.png)
+
+---
+
+## 
+
+
 
 ## Em produção...
 
