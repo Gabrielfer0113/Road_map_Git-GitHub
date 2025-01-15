@@ -376,9 +376,11 @@ O reset remove o commit diferente do revert. Para usarmos digite `git reset HEAD
 
 ---
 
-## 
+## Trabalhando com Fork
 
+O Fork é pegar o repositorio de alguem e alterado para o seu interesse, para fazer isso basta ir até o repositorio da pessoa e apertar no botão `Fork`
 
+![](img/forj.png)
 
 ## Em produção...
 
