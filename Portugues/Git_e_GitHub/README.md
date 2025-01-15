@@ -339,7 +339,7 @@ O `git pull` é usado para atualizar o seu código caso o remoto esteja atulizad
 
 Vá até as configurações do repositorio e adicione o colaborador.
 
-![](img/config_rep.png)
+>![](img/config_rep.png)
 
 Agora as pessoas que forem colaboradores podem dar o push na main do repositório.
 
@@ -363,7 +363,7 @@ Em caso faça o `git add` mas queira removê-lo basta usar o comando `git checko
 
 O revert é usado para voltar o commit mas sem retirar o histórico do commit. Para fazer o revert você tem que ter a hash do commit e digitar `git revert (hash)`
 
-![](img/revert.png)
+>![](img/revert.png)
 
 A importancia do revert é manter o histórico.
 
@@ -372,14 +372,26 @@ A importancia do revert é manter o histórico.
 
 O reset remove o commit diferente do revert. Para usarmos digite `git reset HEAD~1` o numero na frente representa a quantidade de commits que deseja voltar.
 
-![](img/reset.png)
+>![](img/reset.png)
 
 ---
 
-## 
+## Trabalhando com Issues
 
+As issues são considerados tarefas a ser realizado no projeto. Dentro da aba de issues é possivel criar uma issue para marcar as tarefas que podem ser feitas.
+Uma coisa legal sobre as issues é que pessoas de fora podem dar uma sugestão sobre oque arrumar ou adicionar.
 
+>![](img/Issue.png)
 
+>![](img/Issue-2.png)
+
+Após completar o ajuste que a issue sugere podemos fechar tanto pelo GitHub ou pelo Git. 
+
+Dentro do GitHub podemos tanto como fechar ou reabrir a issue somente apertando no botão de `Close Issue` ou `Open Issue`.
+
+>![](img/issue-teste.png)
+
+Enquanto ao Git no momento em que formos dar o commit temos que colocar após
 ## Em produção...
 
 
