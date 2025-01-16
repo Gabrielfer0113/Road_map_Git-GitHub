@@ -382,6 +382,4 @@ O Fork é pegar o repositorio de alguem e alterado para o seu interesse, para fa
 
 ![](img/forj.png)
 
-## Em produção...
-
 
